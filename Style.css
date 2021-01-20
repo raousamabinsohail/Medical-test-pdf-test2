@@ -257,7 +257,7 @@ button:hover {
 
 #eraser-canvas-2 {
   margin-left: 550px;
-  margin-top: -px;
+  /* margin-top: -px; */
 }
 
 @media screen and (min-width: 1000px) and (min-height: 1700px) {
