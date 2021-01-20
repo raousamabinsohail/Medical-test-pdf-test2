@@ -1,17 +1,10 @@
-window.onload =  resizeCanvas()
-
-document.getElementById("sheet").addEventListener("click", function () {
-  console.log("sssssssssss=>", "click");
-  window.pencolor = "white";
-});
+window.onload = resizeCanvas();
 
 function resizeCanvas() {
   console.log(window.innerHeight, "------->", window.innerWidth);
   var convas = document.getElementById("sheet");
 
-  convas.width = window.innerWidth/3;
-
-  
+  convas.width = window.innerWidth / 3;
 }
 
 document.getElementById("eraser-canvas").addEventListener("click", function () {
