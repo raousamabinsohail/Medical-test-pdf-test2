@@ -241,7 +241,7 @@ button:hover {
 #sheet {
   border: 2px solid black;
   background-image: url(./img/body1.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-top: 10px;
   z-index: 1;
@@ -265,13 +265,13 @@ button:hover {
     max-width: 500px;
   }
   #sheet {
-    margin-left: -8%;
+    margin-left: -4%;  
     /* height: 310px !important;  */
   }
   #regForm {
     padding: 40px;
     min-width: 970px !important;
-    max-width: 970px !important;
+    /* max-width: 970px !important; */
   }
   img {
     max-width: 450px;
