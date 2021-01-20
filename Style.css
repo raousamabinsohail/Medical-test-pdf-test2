@@ -289,16 +289,13 @@ button:hover {
     width: 220px !important;
     border: 2px solid black;
   }
-  #sheet2 {
-    /* width: 300px !important; */
-    /* height: 150px !important; */
-  }
+  
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
   #sheet {
     /* margin-left: -8%;  */
     width: 40% !important;
     height: 18% !important;
   }
-}
+} */
