@@ -1,5 +1,10 @@
 window.onload = resizeCanvas();
 
+document.getElementById("sheet").addEventListener("click", function () {
+  console.log("sssssssssss=>", "click");
+  window.pencolor = "white";
+});
+
 function resizeCanvas() {
   console.log(window.innerHeight, "------->", window.innerWidth);
   var convas = document.getElementById("sheet");
@@ -26,3 +31,4 @@ document.getElementById("black1").addEventListener("click", function () {
 document.getElementById("black2").addEventListener("click", function () {
   window.pencolor = "black";
 });
+
