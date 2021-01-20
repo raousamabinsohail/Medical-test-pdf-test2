@@ -277,7 +277,7 @@ button:hover {
     max-width: 450px;
   }
   .left-col2 .first-div .radio-class p {
-    margin-left: 40px;
+    margin-left: 60px;
     font-size: 14px;
   }
   .left-col2 .second-div .radio-class p {
@@ -289,13 +289,15 @@ button:hover {
     width: 220px !important;
     border: 2px solid black;
   }
-  
 }
 
-/* @media screen and (max-width: 1000px) {
-  #sheet {
-    /* margin-left: -8%;  */
-    width: 40% !important;
-    height: 18% !important;
+@media screen and (min-width: 1000px) {
+  .left-col2 .first-div .radio-class p {
+    margin-left: 60px;
+    font-size: 14px;
   }
-} */
+  .left-col2 .second-div .radio-class p {
+    margin-left: 50px;
+    font-size: 14px;
+  }
+}
